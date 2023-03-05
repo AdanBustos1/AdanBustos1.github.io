@@ -10,6 +10,12 @@ html{
     scroll-behavior: smooth;
 }
 /* MENU */
+#lipag{
+    color: aqua;
+}
+#h1pag{
+    color: #af49fc;
+}
 .contenedor-header{
     background: #af49fc;
     position: fixed;
@@ -311,7 +317,7 @@ html{
 }
 @keyframes drupal {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 65%}
 }
 
 .skills .skill .comunicacion{
@@ -329,7 +335,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .creatividad{
@@ -347,7 +353,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .proyect{
@@ -356,7 +362,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 95%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
