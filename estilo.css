@@ -19,6 +19,7 @@
 
 .abcc:hover{
     transform: scale(1.2);
+    color: #010201;
 }
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
