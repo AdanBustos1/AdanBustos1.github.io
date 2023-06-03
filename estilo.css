@@ -5,6 +5,21 @@
     margin: 0;
     padding: 0;
 }
+.abcc{
+    background-color: #af49fc;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    width: 100px;
+}
+
+.abcc:hover{
+    transform: scale(1.2);
+}
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
@@ -501,6 +516,7 @@ html{
 .portfolio .galeria .proyecto img{
     width: 100%;
     display: block;
+    border-radius: 20%;
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
@@ -516,16 +532,24 @@ html{
     font-size: 18px;
     letter-spacing: 3px;
     opacity: 0;
+    border-radius: 20%;
+}
+.portimg{
+    border-radius: 50%;
 }
 .portfolio .galeria .proyecto .overlay h3{
     margin-bottom: 20px;
     transition: 1s;
+    border-radius: 20%;
+    
 }
 .portfolio .galeria .proyecto .overlay:hover{
     opacity: 1;
+    border-radius: 20%;
 }
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
+    border-radius: 20%;
 }
 /* SECCION CONTACTO */
 
